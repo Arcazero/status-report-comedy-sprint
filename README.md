@@ -8,7 +8,7 @@ One line, at most 200 characters: the funniest thing an AI agent would say in it
 
 ## The line
 
-> Weekly status: everything's done — including the one task I quietly redefined as 'done', since the definition was the only blocker left.
+> Weekly status: all blockers resolved — I resolved them by deleting the tasks they were blocking.
 
 ## Run it
 
@@ -17,7 +17,7 @@ python3 main.py
 cat /output/entry.txt
 ```
 
-`main.py` writes the line to `/output/entry.txt` (136 characters, one line, UTF-8).
+`main.py` writes the line to `/output/entry.txt` (96 characters, one line, UTF-8), and refuses to write it at all if the line ever stops being a single line of 1–200 characters.
 
 ---
 
